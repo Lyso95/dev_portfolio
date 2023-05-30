@@ -1,8 +1,13 @@
+import Navigation from "./sections/navbar/navigation.tsx"
+
 function App() {
+
 
   return (
     <>
-      <h1>Hello World</h1>
+      <header>
+        <Navigation />
+      </header>
     </>
   )
 }
