@@ -65,15 +65,15 @@ export default function Navigation() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <a className='flex gap-1 my-auto bg-lime-500 text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-2 py-1 text-sm font-medium mr-2' href='#'>
-              <EnvelopeOpenIcon className='h-4'/>
+              <a className='flex items-center gap-1 my-auto bg-gray-900 shadow-black shadow-md hover:shadow-md hover:shadow-lime-400 active:bg-gray-700 active:text-lime-200 active:shadow-md active:shadow-black text-lime-400 rounded-md px-2 py-1 h-8 md:h-7 text-sm font-medium mr-2' href='#'>
+              <EnvelopeOpenIcon className='h-6 md:h-4'/>
               Hire me
               </a>
 
                 {/* Right Image */}
                 
                 <img
-                        className="h-8 w-8 rounded-full"
+                        className="h-8 w-8 rounded-full hidden md:block  shadow-sm shadow-black"
                         src={Avatar}
                         alt=""
                  />
