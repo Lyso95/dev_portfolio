@@ -5,7 +5,7 @@ const data = {
     text: "Lassen Sie mich Ihnen helfen, online erfolgreich zu sein und Ihre Botschaft zu verbreiten.",
     goto: "Angebot einholen",
     more: "Über mich",
-    img: "amos_pic_green.jpg",
+    //img: "amos_pic_green.jpg",
     img_alt: "Bild von Amos"
 }
 
