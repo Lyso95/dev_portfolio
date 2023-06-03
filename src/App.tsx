@@ -1,16 +1,20 @@
 import Navigation from "./sections/navbar/navigation.tsx"
 import Mainhero from "./sections/hero/mainhero.tsx"
+import StackedList from "./components/stackedList.tsx"
 
 function App() {
 
 
   return (
     <>
-      <header>
+      <header className="sticky top-0 z-50">
         <Navigation />
-        <Mainhero />
-        <div className="bg-slate-400 h-5 mt-24"></div>
       </header>
+      <main>
+        <Mainhero />
+        <StackedList/>
+          <div id="about"></div>
+      </main>
     </>
   )
 }

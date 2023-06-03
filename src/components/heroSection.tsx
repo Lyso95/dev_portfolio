@@ -16,7 +16,7 @@ type HeroProps = {
 const HeroSection = ({mainheading, colorheading, thirdheading, text, goto, more, img, img_alt}: HeroProps) =>  {    
 
     return(
-    <section className="pt-24 bg-white">
+    <section id='hero' className="pt-24 bg-white">
             <div className="px-12 mx-auto max-w-7xl flex flex-col md:flex-row">
                 <div className='w-100 md:max-w-1/3 h-2 mr-8' >
                     <div className='relative max-w-xs overflow-hidden bg-cover bg-no-repeat shadow-xl shadow-gray-700 transition duration-300 ease-in-out hover:shadow-black rounded-3xl'>
