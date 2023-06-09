@@ -1,6 +1,6 @@
 import Navigation from "./sections/navbar/navigation.tsx"
 import Mainhero from "./sections/hero/mainhero.tsx"
-import StackedList from "./components/stackedList.tsx"
+import FeatureDev from "./sections/featureDev/featureDev.tsx"
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       </header>
       <main>
         <Mainhero />
-        <StackedList/>
+        <FeatureDev/>
           <div id="about"></div>
       </main>
     </>

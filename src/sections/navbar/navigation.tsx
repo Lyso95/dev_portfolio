@@ -3,9 +3,10 @@ import { Bars3Icon, EnvelopeOpenIcon, XMarkIcon } from '@heroicons/react/24/outl
 import Avatar from '../../assets/img/amos_avatar.jpg'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About', href: '#about', current: false },
-  { name: 'Projects', href: '#', current: false },
+  { name: 'Start', href: '#hero', current: true },
+  { name: 'Angebote', href: '#feature', current: true},
+  { name: 'Über mich', href: '#', current: false },
+  { name: 'Projekte', href: '#', current: false },
   { name: 'Engagement', href: '#', current: false },
 ]
 
